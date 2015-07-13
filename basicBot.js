@@ -1926,7 +1926,14 @@
                             return false;
                         }
                         else {
-                            var name = msg.substring(space + 2);
+                            var at = msg.indexOf('@');
+                            
+                            if (at === space + 1) {
+                                var name = msg.substring(space + 2);
+                            } else {
+                                var name = msg.substring(space + 1);
+                            }
+                            
                             var user = basicBot.userUtilities.lookupUserName(name);
                             if (user === false || !user.inRoom) {
                                 return API.sendChat(subChat(basicBot.chat.nousercookie, {name: name}));
