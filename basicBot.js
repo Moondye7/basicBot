@@ -1926,11 +1926,12 @@
                             return false;
                         }
                         else {
-                            var at = msg.indexOf('@');
+                            //var at = msg.indexOf('@');
                             
-                            if (at === space + 1) {
+                            if (msg.charAt(space + 1) === '@') {
                                 var name = msg.substring(space + 2);
-                            } else {
+                            }
+                            else {
                                 var name = msg.substring(space + 1);
                             }
                             
