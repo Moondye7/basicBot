@@ -1926,13 +1926,12 @@
                             return false;
                         }
                         else {
-                            //var at = msg.indexOf('@');
                             
                             if (msg.charAt(space + 1) === '@') {
-                                var name = msg.substring(space + 2);
+                               var name = msg.substring(space + 2);
                             }
                             else {
-                                var name = msg.substring(space + 1);
+                               var name = msg.substring(space + 1);
                             }
                             
                             var user = basicBot.userUtilities.lookupUserName(name);
