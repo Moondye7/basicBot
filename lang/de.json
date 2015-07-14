@@ -183,7 +183,7 @@
     "oplist": "\/me OP Liste: %%LINK%%",
     "pong": "\/me Pong!",
     "nicemoves": "\/me ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ"
-    "reload": "\/me Bin gleich zur\u00fcck.",
+    "reload" : "\/me Bin gleich zur\u00fcck.",
     "removenotinwl": "\/me [@%%NAME%%] Benutzer @%%USERNAME%% ist nicht auf der Warteliste.",
     "roomrules": "\/me Du kannst die Regeln f\u00fcr den Chatroom hier finden: %%LINK%%",
     "sessionstats": "\/me [@%%NAME%%] Total woots: %%WOOTS%%, total mehs: %%MEHS%%, total grabs: %%GRABS%%.",
