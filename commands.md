@@ -49,7 +49,6 @@ Bouncer
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!active | (X) | shows how many users chatted in the past X minutes. If no X specified, 60 is set as default |
 |!afkreset | @user | resets the afk time of user |
 |!afktime | @user | shows how long user has been afk |
 |!autodisable | | toggle the autodisable |
@@ -88,6 +87,7 @@ Resident DJ
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
+|!active | (X) | shows how many users chatted in the past X minutes. If no X specified, 60 is set as default |
 |!ghostbuster | @user | überprüft, ob der Benutzer ghostet |
 |!voteratio | @user | stellt die Vote Statistik für den Nutzer dar |
 |!sessionstats | | display stats for the current session |
