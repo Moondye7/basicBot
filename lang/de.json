@@ -22,8 +22,8 @@
         "backt dir einen frischen Keks, er schmeckt wunderbar."
     ],
     
-    "slaps": [
-        "schlägt dich zusammen, du blutest!"
+    "slap": [
+        "@%%NAMETO%%, %%NAMEFROM%% schlägt dich zusammen. Du blutest!"
        
     ],
     
@@ -218,7 +218,6 @@
     "website": "\/me Bitte besuch unsere Website: %%LINK%%",
     "youtube": "\/me [%%NAME%%] Subscribe unseren Youtube Channel! %%LINK%%",
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
-    "slap": "\/me @%%NAMETO%%, %%NAMEFROM%% %%SLAPS%%", 
     "selfslap": "\/me schlägt sich selber.",
     "nouserslap": "\/me sieht %%NAME%% nicht im Raum und schlägt sich selber."
 }
