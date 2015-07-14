@@ -107,7 +107,6 @@ User
 |!dclookup / !dc | | benutz dclookup an dir selbst |
 |!emoji | | Link zu einer Liste von emoji's |
 |!eta | | zeigt, wie lange es dauert, bis du dran bist |
-|!fb | | verlinkt zur Facebook Seite des Raums (Falls es in den Optionen festgelegt ist) |
 |!gif | (message) | postet ein gif (von giphy) passend zu den Schlagwörtern. Postet ein zufälliges gif, wenn keine Schlagwörter benutzt wurden. |
 |!help | | sendet einen Link, welcher Neulingen hilft |
 |!join | | dem Roulette beitreten, falls es aktiv ist |
@@ -118,8 +117,7 @@ User
 |!purchase | | sendet Link zum Kauf von weiteren PlugNotes |
 |!rules | | Link zu den Regeln (Falls es in den Optionen festgelegt ist) |
 |!theme | | Link zum Thema des Raums (Falls es in den Optionen festgelegt ist) |
-|!website | | Link zur Website des Raum's (Falls es in den Optionen festgelegt ist) |
-|!youtube | | Link zum Youtube Kanal (Falls es in den Optionen festgelegt ist) |
+|!social | | Link zu allen Moondye7 Social Links |
 |!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ |
 |!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
