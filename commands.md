@@ -10,39 +10,39 @@ Manager
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!afklimit | X | sets the maximum afk time |
-|!botname | (botname) | change the default bot name |
-|!bouncer+ | | toggle bouncer+ |
-|!skippos | X | set the position to which skip and lockskip moves the dj |
-|!clearchat | |clears the chat |
-|!cycle | | toggle DJ cycle |
-|!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
-|!language | (language) | specify the language you would like the bot to use |
-|!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
-|!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
-|!logout | | logs out account bot is hosted on |
-|!refresh | | refreshes the browser of whoever runs the bot |
-|!usercmdcd | X | set the cooldown on commands by grey users |
-|!usercommands | | toggle user commands |
+|!afklimit | X | Legt die maximale AFK-Zeit fest |
+|!botname | (botname) | Ändert den Botnamen |
+|!bouncer+ | | An / Ausschalten von Bouncer+ |
+|!skippos | X | Legt die Position fest, an die Nutzer verschoben werden nachdem sie übersprungen wurden |
+|!clearchat | | Leert den Chat |
+|!cycle | | Aktiviert den DJ-Zyklus |
+|!cycletimer | X | Legt fest wielange die es dauert bis ein Song mit !cycleguard übersprungen wird |
+|!language | (language) | Stellt die Sprache des Bots ein |
+|!locktimer | X | Legt fest wielange die Waitlist bei einem !lockguard gesperrt ist |
+|!maxlength | X | Legt die maximale Songlänge fest |
+|!logout | | Loggt den aktuellen Bot-Benutzer aus |
+|!refresh | | Lädt den Browser des Bot-Hosts neu |
+|!usercmdcd | X | Legt den Zeitabstand fest indem user Befehle benutzen können |
+|!usercommands | | Aktiviert / Deaktiviert User-Befehle |
 
 Bouncer+
 --------
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!add | @user | add user to the waitlist |
-|!afkremoval | | toggles the afk check |
-|!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
-|~~!deletechat~~ | ~~@user~~ | ~~delete all the chats by a certain user~~ |
-|!lock | | lock the waitlist |
-|!lockdown | | lock down the room: only staff can chat |
-|!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
-|!remove | @user | remove user from the waitlist |
-|!roulette | | start a roulette |
-|!songstats | | toggle song statistics |
-|!unlock | | unlock the waitlist |
-|!welcome | | toggle the welcome message on user join |
-|!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
+|!add | @user | Fügt einen User zur Warteliste hinzu |
+|!afkremoval | | Aktiviert / Deaktiviert den AFK-Check |
+|!autoskip | | Überspringt Songs automatisch im Falle eines Cyclebugs |
+|~~!deletechat~~ | ~~@user~~ | ~~Löscht alle Nachrichten eines Users~~ |
+|!lock | | Sperrt die Warteliste |
+|!lockdown | | Sperrt den Chat. Nur Bouncer, Manager und Host/Co-Hosts können chatten |
+|!move | @user (X) | verschiebt einen User zu einer bestimmten Position in der Warteliste |
+|!remove | @user | Entfernt einen Nutzer von der Warteliste |
+|!roulette | | Startet ein Roulette |
+|!songstats | | Aktiviert / Deaktiviert Song-Statistiken |
+|!unlock | | Entsperrt die Warteliste |
+|!welcome | | Aktiviert / Deaktiviert die Wilkommensnachricht |
+|!voteskip | (X) | Wenn eine bestimme anzahl and Meh's erreicht wurde wird der aktuelle Song geskippt  |
 
 Bouncer
 -------
