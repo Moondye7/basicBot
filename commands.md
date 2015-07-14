@@ -73,7 +73,6 @@ Bouncer
 |!mute | @user (X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
 |!reload | | reload the bot |
 |!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
-|!sessionstats | | display stats for the current session |
 |!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
 |!status | | display the bot's status and some settings |
 |!timeguard | | toggle the timeguard |
@@ -82,7 +81,6 @@ Bouncer
 |!togglevoteskip | | toggle the voteskip |
 |!unban | @user | unban user |
 |!unmute | | unmute user |
-|!voteratio | @user | display the vote statistic for a user |
 |!whois | @user | returns plug related information about user |
 
 Resident DJ
@@ -90,9 +88,11 @@ Resident DJ
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!link | | give a link to the current song
-
-
+|!ghostbuster | @user | überprüft, ob der Benutzer ghostet |
+|!voteratio | @user | stellt die Vote Statistik für den Nutzer dar |
+|!sessionstats | | display stats for the current session |
+|!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! |
+|!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: |
 
 User
 ----
@@ -108,7 +108,6 @@ User
 |!emoji | | a link to a list with emoji's |
 |!eta | | shows how long before you reach the booth |
 |!fb | | links to the room's Facebook page (if set in the settings) |
-|!ghostbuster | @user | checks if user is ghosting |
 |!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
 |!help | | links to an image to help get people started on plug |
 |!join | | join the roulette if it's up |
@@ -121,3 +120,10 @@ User
 |!theme | | links to the room's theme (if set in the settings) |
 |!website | | links to the room's website (if set in the settings) |
 |!youtube | | links to the room's youtube page (if set in the settings) |
+|!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ |
+|!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
+|!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
+|!bier | |  DRINK DAT BIER!!! :avabeer: :swiftrage: |
+|!ritzenspalt | |  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 gemacht hat :4head:|
+|!residentsleeper | | residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper: " |
+
