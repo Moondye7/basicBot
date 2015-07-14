@@ -2206,7 +2206,7 @@
 
             ghostbusterCommand: {
                 command: 'ghostbuster',
-                rank: 'resident dj',
+                rank: 'residentdj',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3485,7 +3485,7 @@
 
             voteratioCommand: {
                 command: 'voteratio',
-                rank: 'resident dj',
+                rank: 'residentdj',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3722,7 +3722,7 @@
             
             pjsaltCommand: {
                 command: 'pjsalt',
-                rank: 'resident dj',
+                rank: 'residentdj',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3748,7 +3748,7 @@
             
             moondye7Command: {
                 command: 'moondye7',
-                rank: 'resident dj',
+                rank: 'residentdj',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
