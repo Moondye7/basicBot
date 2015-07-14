@@ -93,6 +93,7 @@ Resident DJ
 |!sessionstats | | zeigt die Statistik der momentanen Session an |
 |!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! |
 |!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: |
+|!lauch | | Schlag jemanden mit einem Plüschlauch! |
 
 User
 ----
@@ -123,5 +124,6 @@ User
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
 |!bier | |  DRINK DAT BIER!!! :avabeer: :swiftrage: |
 |!ritzenspalt | |  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 gemacht hat :4head:|
+|!slap | | Schlag jemanden ins Gesicht! |
 |!residentsleeper | | residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper:  |
 
