@@ -156,7 +156,7 @@
     "youaredj": "\/me @%%NAME%%, you are currently DJing.",
     "eta": "\/me @%%NAME%%, you are position %%POSITION%% in the waitlist and will reach the booth in approximately %%TIME%%.",
     "facebook": "\/me Like us on facebook: %%LINK%%",
-    "social": "\/me "social": "\/me Hier findest du alle Moondye7 Social Links: http://www.twitch.tv/moondye7 Twitch  https://twitter.com/Moondye7 Twitter  https://www.youtube.com/user/Moondye7 Youtube  https://www.facebook.com/Moondye7 Facebook",
+    "social": "\/me : Hier findest du alle Moondye7 Social Links: http://www.twitch.tv/moondye7 Twitch  https://twitter.com/Moondye7 Twitter  https://www.youtube.com/user/Moondye7 Youtube  https://www.facebook.com/Moondye7 Facebook",
     "starterhelp": "\/me This image will get you started on plug: %%LINK%%",
     "roulettejoin": "@%%NAME%% joined the roulette! (!leave if you regret it)",
     "jointime": "\/me [@%%NAMEFROM%%] @%%USERNAME%% has been in the room for %%TIME%%.",
