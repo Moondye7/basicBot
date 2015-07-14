@@ -155,6 +155,7 @@
     "youaredj": "\/me @%%NAME%%, Du djst gerade.",
     "eta": "\/me @%%NAME%%, du bist in der Position %%POSITION%% in der Warteliste und wirst in ungef\u00e4hr %%TIME%% Minuten dran sein.",
     "facebook": "\/me Like uns auf facebook: %%LINK%%",
+    "social": "\/me Hier findest du alle Moondye7 Social Links: Twitch: www.twitch.tv/moondye7 , Twitter: www.twitter.com/moondye7, Youtube: wwww.youtube.com/moondye7, Facebook: wwww.facebook.com/moondye7",
     "starterhelp": "\/me Dieses Bild hilft dir, auf Plug.Dj klar zu kommen: %%LINK%%",
     "roulettejoin": "@%%NAME%% ist dem Roulette beigetreten (F\u00fchr den Befehl !leave aus, wenn du es verlassen willst).",
     "jointime": "\/me [@%%NAMEFROM%%] @%%USERNAME%% ist schon im Chatraum seit %%TIME%% Minuten.",
