@@ -42,7 +42,7 @@
     ],
     
     "lauchs": [
-        "bekommt von %%NAMEFROM%% einen Plüsch-Lauch um die Ohren ! Du solltest dich rächen :4head: ! ",
+        "einen Plüsch-Lauch um die Ohren ! Du solltest dich rächen :4head: ! ",
        
     ],
     
@@ -242,5 +242,5 @@
     "slap": "\/me @%%NAMETO%%, %%NAMEFROM%% %%SLAP%%",
     "selflauch": "\/me schlägt sich selber mit dem Plüschlauch :failfish: .",
     "nouserlauch": "\/me sieht %%NAME%% nicht im Raum und schlägt sich selber mit dem Plüschlauch.",
-    "lauch": "\/me @%%NAMETO%% %%LAUCH%%"
+    "lauch": "\/me @%%NAMETO%% bekommt von %%NAMEFROM%% %%LAUCH%%"
 }
