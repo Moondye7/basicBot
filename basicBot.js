@@ -1992,7 +1992,48 @@
                 }
             },
             
-            
+            lauchCommand: {
+                command: 'lauch',
+                rank: 'user',
+                type: 'startsWith',
+                getlauch: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.lauchs.length);
+                    return basicBot.chat.lauchs[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.selflauch);
+                            return false;
+                        }
+                        else {
+                            
+                            if (msg.charAt(space + 1) === '@') {
+                               var name = msg.substring(space + 2);
+                            }
+                            else {
+                               var name = msg.substring(space + 1);
+                            }
+                            
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserlauch, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selflauch, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.lauch, {nameto: user.username, namefrom: chat.un, lauch: this.getlauch()}));
+                            }
+                        }
+                    }
+                }
+            },
 
             cycleCommand: {
                 command: 'cycle',
