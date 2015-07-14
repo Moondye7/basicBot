@@ -182,6 +182,7 @@
     "muterank": "\/me [@%%NAME%%] Du kannst Benutzer nicht stumm schalten, welche den gleichen oder einen h\u00f6heren Rang als du haben.",
     "oplist": "\/me OP Liste: %%LINK%%",
     "pong": "\/me Pong!",
+    "nicemoves": "\/me ┌( ಠ‿ಠ)┘ ᕕ( ⁰ ▽ ⁰ )ᕗ ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ ♪♬ ₍₍ ᕕ༼.◕ヮ◕.༽ᕗ⁾⁾ ₍₍ ᕕ(´◓⌓◔)ᕗ⁾⁾",
     "reload": "\/me Bin gleich zur\u00fcck.",
     "removenotinwl": "\/me [@%%NAME%%] Benutzer @%%USERNAME%% ist nicht auf der Warteliste.",
     "roomrules": "\/me Du kannst die Regeln f\u00fcr den Chatroom hier finden: %%LINK%%",
