@@ -242,5 +242,5 @@
     "slap": "\/me @%%NAMETO%%, %%NAMEFROM%% %%SLAP%%",
     "selflauch": "\/me schlägt sich selber mit dem Plüschlauch :failfish: .",
     "nouserlauch": "\/me sieht %%NAME%% nicht im Raum und schlägt sich selber mit dem Plüschlauch.",
-    "lauch": "\/me @%%NAMETO%% %%LAUCHS%%"
+    "lauch": "\/me @%%NAMETO%% %%LAUCH%%"
 }
