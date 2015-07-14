@@ -21,6 +21,12 @@
         "gibt dir einen alten Keks, der im Regen gelassen wurde. Er ist schimmlig.",
         "backt dir einen frischen Keks, er schmeckt wunderbar."
     ],
+    
+    "slaps": [
+        "schlägt dich zusammen, du blutest!",
+       
+    ],
+    
     "balls": [
          "Die Zeichen deuten auf Ja.",
          "Ja.",
@@ -211,5 +217,8 @@
     "voteratio": "\/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, ratio (w\/m): %%RATIO%%.",
     "website": "\/me Bitte besuch unsere Website: %%LINK%%",
     "youtube": "\/me [%%NAME%%] Subscribe unseren Youtube Channel! %%LINK%%",
-    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M."
+    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
+    "slap": "\/me @%%NAMETO%%, %%NAMEFROM%% %%SLAP%%",
+    "selfslap": "\/me schlägt sich selber.",
+    "nouserslap": "\/me sieht %%NAME%% nicht im Raum und schlägt sich selber."
 }
