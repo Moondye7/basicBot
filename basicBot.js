@@ -1948,6 +1948,51 @@
                     }
                 }
             },
+            
+            slapCommand: {
+                command: 'slap',
+                rank: 'residentdj',
+                type: 'startsWith',
+                getCookie: function (chat) {
+                    var c = Math.floor(Math.random() * basicBot.chat.slaps.length);
+                    return basicBot.chat.slaps[c];
+                },
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.selfslap);
+                            return false;
+                        }
+                        else {
+                            
+                            if (msg.charAt(space + 1) === '@') {
+                               var name = msg.substring(space + 2);
+                            }
+                            else {
+                               var name = msg.substring(space + 1);
+                            }
+                            
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nouserslap, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfslap, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.slap, {nameto: user.username, namefrom: chat.un, slap: this.getslap()}));
+                            }
+                        }
+                    }
+                }
+            },
+            
+            
 
             cycleCommand: {
                 command: 'cycle',
