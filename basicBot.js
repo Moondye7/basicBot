@@ -2860,7 +2860,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        API.sendChat(basicBot.chat.┌( ಠ‿ಠ)┘ ᕕ( ⁰ ▽ ⁰ )ᕗ ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ ♪♬ ₍₍ ᕕ༼.◕ヮ◕.༽ᕗ⁾⁾ ₍₍ ᕕ(´◓⌓◔)ᕗ⁾⁾)
+                        API.sendChat(basicBot.chat.nicemoves)
                     }
                 }
             },
