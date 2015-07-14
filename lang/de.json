@@ -22,10 +22,6 @@
         "backt dir einen frischen Keks, er schmeckt wunderbar."
     ],
     
-    "slap": [
-        "@%%NAMETO%%, %%NAMEFROM%% schlägt dich zusammen. Du blutest! "
-       
-    ],
     
     "balls": [
          "Die Zeichen deuten auf Ja.",
@@ -220,4 +216,5 @@
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
     "selfslap": "\/me schlägt sich selber.",
     "nouserslap": "\/me sieht %%NAME%% nicht im Raum und schlägt sich selber."
+    "nouserslap": "\/me @%%NAMETO%%, %%NAMEFROM%% schlägt dich zusammen. Du blutest!"
 }
