@@ -2918,6 +2918,59 @@
             },
             
             
+            pjsaltCommand: {
+                command: 'pjsalt',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.pjsalt)
+                    }
+                }
+            },
+            
+            ritzenspaltCommand: {
+                command: 'ritzenspalt',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.ritzenspalt)
+                    }
+                }
+            },
+            
+            moondye7Command: {
+                command: 'moondye7',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.moondye7)
+                    }
+                }
+            },
+            
+            
+             residentsleeperCommand: {
+                command: 'residentsleeper',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.residentsleeper)
+                    }
+                }
+            },
+            
 
             refreshCommand: {
                 command: 'refresh',
