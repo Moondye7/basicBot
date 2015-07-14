@@ -1985,7 +1985,7 @@
                                 return API.sendChat(subChat(basicBot.chat.selfslap, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.slap, {nameto: user.username, namefrom: chat.un, slap: this.getslap()}));
+                                return API.sendChat(subChat(basicBot.chat.slap, {nameto: user.username, namefrom: chat.un, cookie: this.getCookie()}));
                             }
                         }
                     }
