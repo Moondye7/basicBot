@@ -91,9 +91,7 @@ Resident DJ
 |!ghostbuster | @user | überprüft, ob der Benutzer ghostet |
 |!voteratio | @user | stellt die Vote Statistik für den Nutzer dar |
 |!sessionstats | | zeigt die Statistik der momentanen Session an |
-
-Custom Commands
-
+|Custom Commands                                                  |
 |!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! |
 |!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: |
 
