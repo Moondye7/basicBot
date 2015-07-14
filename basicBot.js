@@ -1951,7 +1951,7 @@
             
             slapCommand: {
                 command: 'slap',
-                rank: 'residentdj',
+                rank: 'user',
                 type: 'startsWith',
                 getslap: function (chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.slaps.length);
@@ -1994,7 +1994,7 @@
             
             lauchCommand: {
                 command: 'lauch',
-                rank: 'user',
+                rank: 'residentdj',
                 type: 'startsWith',
                 getlauch: function (chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.lauchs.length);
