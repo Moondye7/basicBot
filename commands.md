@@ -1,14 +1,14 @@
-Commands:
+Moondye7 Plug DJ Commands:
 =========
 
-X specifies a number  
-Arguments between ( ) are optional
+X legt eine Nummer fest  
+Arguments zwischen ( ) sind optional, daher nicht notwendig
 
 
 Manager
 -------
 
-|Command | Arguments |  Description |
+|Command | Arguments |  Beschreibung |
 |:------:|:---------:|:--------------------------------------:|
 |!afklimit | X | Legt die maximale AFK-Zeit fest |
 |!botname | (botname) | Ändert den Botnamen |
@@ -28,7 +28,7 @@ Manager
 Bouncer+
 --------
 
-|Command | Arguments |  Description |
+|Command | Arguments |  Beschreibung |
 |:------:|:---------:|:--------------------------------------:|
 |!add | @user | Fügt einen User zur Warteliste hinzu |
 |!afkremoval | | Aktiviert / Deaktiviert den AFK-Check |
@@ -47,79 +47,85 @@ Bouncer+
 Bouncer
 -------
 
-|Command | Arguments |  Description |
+|Command | Arguments |  Beschreibung |
 |:------:|:---------:|:--------------------------------------:|
-|!afkreset | @user | resets the afk time of user |
-|!afktime | @user | shows how long user has been afk |
-|!autodisable | | toggle the autodisable |
-|!ban | @user | bans user for 1 day |
-|!blacklist / !bl | blacklistname | add the song to the specified blacklist |
-|!commanddeletion | | toggles if bot commands gets deleted |
-|!blinfo | | get information required to blacklist a song |
-|!cycleguard | | toggles the cycleguard |
-|!dclookup / !dc | (@user) | do dclookup for user |
-|!english | @user | ask user to speak english (asked in the language they set plug to) |
-|!eta | (@user) | shows when user will reach the booth |
-|!filter | | toggles the chat filter |
-|!forceskip | | forceskips the current song |
-|!historyskip | | toggles the history skip |
-|!jointime | @user | shows how long the user has been in the room |
-|!kick | (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
-|!kill | | shut down the bot |
-|!lockguard | | toggle the lockguard |
-|!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
-|!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
-|!mute | @user (X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
-|!reload | | reload the bot |
-|!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
-|!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
-|!status | | display the bot's status and some settings |
-|!timeguard | | toggle the timeguard |
-|!togglebl | | toggle the blacklist |
-|!togglemotd | | toggle the motd |
-|!togglevoteskip | | toggle the voteskip |
-|!unban | @user | unban user |
-|!unmute | | unmute user |
-|!whois | @user | returns plug related information about user |
+|!afkreset | @user | setzt den afk Timer eines Nutzers zurück |
+|!afktime | @user | zeigt, wie lange ein Nutzer bereits afk ist |
+|!autodisable | | Autodeaktivierung aktivieren/deaktivieren |
+|!ban | @user | Nutzer für 1 Tag verbannen |
+|!blacklist / !bl | blacklistname | Song zu der festgelegten Blacklist hinzufügen |
+|!commanddeletion | |Befehlslöschung aktivieren/deaktivieren |
+|!blinfo | | erhalte Informationen, um den Song auf die Blacklist zu setzen |
+|!cycleguard | | aktiviert/deaktiviert |
+|!dclookup / !dc | (@user) | führt dclookup für einen Nutzer aus |
+|!english | @user |bittet Nutzer, Englisch zu sprechen (fragt in der festgelegten Plug DJ Sprache) |
+|!eta | (@user) | zeigt an, wann der Nutzer an der Reihe ist |
+|!filter | | aktiviert/deaktiviert den Chatfilter |
+|!forceskip | | überspringt den momentanen Song |
+|!historyskip | | aktiviert/deaktiviert das Überspringen von bereits gespielten Songs |
+|!jointime | @user | zeigt, wie lange der Nutzer schon anwesend ist |
+|!kick | (X) | kickt Nutzer für X Minuten, Standard ist 0.25 (15 sekunden) |
+|!kill | | deaktiviert den Bot |
+|!lockguard | | aktiviert/deaktiviert den lookguard |
+|!lockskip | (reason) | überspringt, sperrt und verschiebt den Dj wieder nach oben (die Position kann mit !skippos festgelegt werden) |
+|!motd | (X)/(message) |Wenn kein Argument gesetzt ist, zeigt es die momentane Nachricht des Tages an, wenn jedoch X gesetzt ist, dann wird die Nachricht alle X Songs, falls eine Nachricht gesetzt ist, angezeigt.|
+|!mute | @user (X) | Nutzer stumm schalten, für X minuten, falls X festgelegt ist, ansonsten für eine undefinierte Zeitspanne |
+|!reload | | Bot neu Laden |
+|!restricteta | | aktiviert/deaktiviert die eingeschränkte Nutzung von !eta: Normale Nutzer können diesen command nur einmal pro Stunde benutzen |
+|!skip | (reason) | skippt den Dj mithilfe von smartskip. Aktionen wie schließen und verschieben hängen von verschiedenen Faktoren ab (die Position, auf die der Dj nach dem skip verschoben wird, kann mit!skippos festgelegt werden) |
+|!status | | Status und einige Optionen des Bot's anzeigen |
+|!timeguard | | Zeitwächter aktivieren/deaktivieren |
+|!togglebl | | Blacklist aktivieren/deaktivieren |
+|!togglemotd | | Tagesnachricht aktivieren/deaktivieren |
+|!togglevoteskip | | Voteskip aktivieren/deaktivieren |
+|!unban | @user | Nutzer entbannen |
+|!unmute | | Nutzer entmuten |
+|!whois | @user | zeigt Plug spezifische Informationen über diesen Nutzer an |
 
 Resident DJ
 -----------
 
-|Command | Arguments |  Description |
+|Command | Arguments |  Beschreibung |
 |:------:|:---------:|:--------------------------------------:|
 |!active | (X) | Zeigt an, wieviele Benutzer in den letzten x Minuten gechattet haben. Wenn X nicht festgelegt ist, ist 60 als Standart festgelegt |
 |!ghostbuster | @user | überprüft, ob der Benutzer ghostet |
 |!voteratio | @user | stellt die Vote Statistik für den Nutzer dar |
 |!sessionstats | | zeigt die Statistik der momentanen Session an |
+
+Custom Commands
+
 |!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! |
 |!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: |
 
 User
 ----
 
-|Command | Arguments |  Description |
+|Command | Arguments |  Beschreibung |
 |:------:|:---------:|:--------------------------------------:|
-|!ask / !8ball | (message) |stell dem Bot eine Frage, er wird mit einer zufälligen Variation  einer Ja/Nein Antwort antworten . |
+|!ask / !8ball | (message) |stell dem Bot eine Frage, er wird mit einer zufälligen Variation einer Ja/Nein Antwort antworten . |
 |!autowoot | | verlinkt zu PlugCubed, dem empfohlenen Plugin für Autowooting |
 |!ba | | erklärt den Brand Ambassador Rang |
-|!commands | | gibt Link zu den commands |
+|!commands | | sendet Link zu den Commands |
 |!cookie | (@user) | gib einer Person einen Keks! |
 |!dclookup / !dc | | benutz dclookup an dir selbst |
 |!emoji | | Link zu einer Liste von emoji's |
 |!eta | | zeigt, wie lange es dauert, bis du dran bist |
 |!fb | | verlinkt zur Facebook Seite des Raums (Falls es in den Optionen festgelegt ist) |
-|!gif | (message) | postet ein gif (von giphy) passend zu den Schlagwoertern. Postet ein zufälliges gif, wenn keine Schlagwoerter benutzt wurden. |
-|!help | | gibt Link, welcher Neulingen hilft |
+|!gif | (message) | postet ein gif (von giphy) passend zu den Schlagwörtern. Postet ein zufälliges gif, wenn keine Schlagwörter benutzt wurden. |
+|!help | | sendet einen Link, welcher Neulingen hilft |
 |!join | | dem Roulette beitreten, falls es aktiv ist |
 |!leave | | das Roulette verlassen |
-|!link | |wenn der User am Dj Pult ist, Link zum Song geben |
+|!link | | wenn der User am Dj Pult ist, sendet es einen Link zum Song |
 |!op | | verlinkt zur Overplayed Playlist (Falls es in den Optionen festgelegt ist) |
 |!ping | | pong! |
-|!purchase | | gibt Link zum Kauf von weiteren PlugNotes |
-|!rules | | verlinkt zu den Regeln (Falls es in den Optionen festgelegt ist) |
-|!theme | | verlinkt zum Thema des Raums (Falls es in den Optionen festgelegt ist) |
-|!website | | verlinkt zur Website des Raum's (Falls es in den Optionen festgelegt ist) |
-|!youtube | | verlinkt zum Youtube Kanal (Falls es in den Optionen festgelegt ist) |
+|!purchase | | sendet Link zum Kauf von weiteren PlugNotes |
+|!rules | | Link zu den Regeln (Falls es in den Optionen festgelegt ist) |
+|!theme | | Link zum Thema des Raums (Falls es in den Optionen festgelegt ist) |
+|!website | | Link zur Website des Raum's (Falls es in den Optionen festgelegt ist) |
+|!youtube | | Link zum Youtube Kanal (Falls es in den Optionen festgelegt ist) |
+
+Custom Commands
+
 |!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ |
 |!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
