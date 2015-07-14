@@ -51,7 +51,7 @@ Bouncer
 |:------:|:---------:|:--------------------------------------:|
 |!afkreset | @user | setzt den afk Timer eines Nutzers zurück |
 |!afktime | @user | zeigt, wie lange ein Nutzer bereits afk ist |
-|!autodisable | | Autodeaktivierung aktivieren/deaktivieren |
+|!autodisable | | Wenn es aktiviert ist, sendet der Bot !afkdisable und !joindsiable jede Stunde aus. Das deaktiviert Afk Nachrichten und Autojoining auf plugcubed |
 |!ban | @user | Nutzer für 1 Tag verbannen |
 |!blacklist / !bl | blacklistname | Song zu der festgelegten Blacklist hinzufügen |
 |!commanddeletion | |Befehlslöschung aktivieren/deaktivieren |
