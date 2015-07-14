@@ -1953,7 +1953,7 @@
                 command: 'slap',
                 rank: 'residentdj',
                 type: 'startsWith',
-                getCookie: function (chat) {
+                getslap: function (chat) {
                     var c = Math.floor(Math.random() * basicBot.chat.slaps.length);
                     return basicBot.chat.slaps[c];
                 },
@@ -1985,7 +1985,7 @@
                                 return API.sendChat(subChat(basicBot.chat.selfslap, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.slap, {nameto: user.username, namefrom: chat.un, cookie: this.getCookie()}));
+                                return API.sendChat(subChat(basicBot.chat.slap, {nameto: user.username, namefrom: chat.un, slap: this.getslap()}));
                             }
                         }
                     }
