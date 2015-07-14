@@ -21,7 +21,7 @@
         "gibt dir einen alten Keks, der im Regen gelassen wurde. Er ist schimmlig.",
         "backt dir einen frischen Keks, er schmeckt wunderbar."
     ],
-    "balls": {
+    "balls": [
          "Die Zeichen deuten auf Ja.",
          "Ja.",
          "Versuch es sp\u00e4ter nochmal.",
@@ -54,7 +54,7 @@
          "Willst du mich verarschen?",
          "Du kannst nicht darauf z\u00e4hlen",
          "Vergiss es."
-    },
+    ],
     "nodatafound": "Keine vorhergehenden Daten gefunden.",
     "currentlang": "\/me Zurzeit eingestellte Sprache: %%LANGUAGE%%",
     "langerror": "\/me Die ausgew\u00e4hlte Sprache ist nicht verf\u00fcgbar. Bitte besuche %%LINK%%, um eine Liste der verf\u00fcgbaren Sprachen zu finden.",
