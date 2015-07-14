@@ -184,7 +184,7 @@
     "oplist": "\/me OP Liste: %%LINK%%",
     "pong": "\/me Pong!",
     "nicemoves": "\/me ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ",
-    "softeis": "\/me @%%USERNAME%% kriegt ein Softeis :4head: Angeleckt von Ritzenspalt :4head: Lecker! :kappa:",
+    "softeis": "\/me @%%NAME%% kriegt ein Softeis :4head: Angeleckt von Ritzenspalt :4head: Lecker! :kappa:",
     "reload": "\/me Bin gleich zur\u00fcck.",
     "removenotinwl": "\/me [@%%NAME%%] Benutzer @%%USERNAME%% ist nicht auf der Warteliste.",
     "roomrules": "\/me Du kannst die Regeln f\u00fcr den Chatroom hier finden: %%LINK%%",
