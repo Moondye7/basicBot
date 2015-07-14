@@ -10,39 +10,39 @@ Manager
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!afklimit | X | Legt die maximale AFK-Zeit fest |
-|!botname | (botname) | Ändert den Botnamen |
-|!bouncer+ | | An / Ausschalten von Bouncer+ |
-|!skippos | X | Legt die Position fest, an die Nutzer verschoben werden nachdem sie übersprungen wurden |
-|!clearchat | | Leert den Chat |
-|!cycle | | Aktiviert den DJ-Zyklus |
-|!cycletimer | X | Legt fest wielange die es dauert bis ein Song mit !cycleguard übersprungen wird |
-|!language | (language) | Stellt die Sprache des Bots ein |
-|!locktimer | X | Legt fest wielange die Waitlist bei einem !lockguard gesperrt ist |
-|!maxlength | X | Legt die maximale Songlänge fest |
-|!logout | | Loggt den aktuellen Bot-Benutzer aus |
-|!refresh | | Lädt den Browser des Bot-Hosts neu |
-|!usercmdcd | X | Legt den Zeitabstand fest indem user Befehle benutzen können |
-|!usercommands | | Aktiviert / Deaktiviert User-Befehle |
+|!afklimit | X | sets the maximum afk time |
+|!botname | (botname) | change the default bot name |
+|!bouncer+ | | toggle bouncer+ |
+|!skippos | X | set the position to which skip and lockskip moves the dj |
+|!clearchat | |clears the chat |
+|!cycle | | toggle DJ cycle |
+|!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
+|!language | (language) | specify the language you would like the bot to use |
+|!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
+|!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
+|!logout | | logs out account bot is hosted on |
+|!refresh | | refreshes the browser of whoever runs the bot |
+|!usercmdcd | X | set the cooldown on commands by grey users |
+|!usercommands | | toggle user commands |
 
 Bouncer+
 --------
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!add | @user | Fügt einen User zur Warteliste hinzu |
-|!afkremoval | | Aktiviert / Deaktiviert den AFK-Check |
-|!autoskip | | Überspringt Songs automatisch im Falle eines Cyclebugs |
-|~~!deletechat~~ | ~~@user~~ | ~~Löscht alle Nachrichten eines Users~~ |
-|!lock | | Sperrt die Warteliste |
-|!lockdown | | Sperrt den Chat. Nur Bouncer, Manager und Host/Co-Hosts können chatten |
-|!move | @user (X) | verschiebt einen User zu einer bestimmten Position in der Warteliste |
-|!remove | @user | Entfernt einen Nutzer von der Warteliste |
-|!roulette | | Startet ein Roulette |
-|!songstats | | Aktiviert / Deaktiviert Song-Statistiken |
-|!unlock | | Entsperrt die Warteliste |
-|!welcome | | Aktiviert / Deaktiviert die Wilkommensnachricht |
-|!voteskip | (X) | Wenn eine bestimme anzahl and Meh's erreicht wurde wird der aktuelle Song geskippt  |
+|!add | @user | add user to the waitlist |
+|!afkremoval | | toggles the afk check |
+|!autoskip | | skips songs automatically when they're done (use when the circles-bug happens) |
+|~~!deletechat~~ | ~~@user~~ | ~~delete all the chats by a certain user~~ |
+|!lock | | lock the waitlist |
+|!lockdown | | lock down the room: only staff can chat |
+|!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
+|!remove | @user | remove user from the waitlist |
+|!roulette | | start a roulette |
+|!songstats | | toggle song statistics |
+|!unlock | | unlock the waitlist |
+|!welcome | | toggle the welcome message on user join |
+|!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
 
 Bouncer
 -------
@@ -99,27 +99,27 @@ User
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!ask / !8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
-|!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
-|!ba | | explains the Brand Ambassador rank |
-|!commands | | gives a link to the commands |
-|!cookie | (@user) | give a cookie to user |
-|!dclookup / !dc | | use dclookup on yourself |
-|!emoji | | a link to a list with emoji's |
-|!eta | | shows how long before you reach the booth |
-|!fb | | links to the room's Facebook page (if set in the settings) |
-|!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
-|!help | | links to an image to help get people started on plug |
-|!join | | join the roulette if it's up |
-|!leave | | leave the roulette if you joined |
-|!link | | when the user is the DJ, give a link to the current song |
-|!op | | links to the OverPlayed list (if set in the settings) |
+|!ask / !8ball | (message) |stell dem Bot eine Frage, er wird mit einer zufälligen Variation  einer Ja/Nein Antwort antworten . |
+|!autowoot | | verlinkt zu PlugCubed, dem empfohlenen Plugin für Autowooting |
+|!ba | | erklärt den Brand Ambassador Rang |
+|!commands | | gibt Link zu den commands |
+|!cookie | (@user) | gib einer Person einen Keks! |
+|!dclookup / !dc | | benutz dclookup an dir selbst |
+|!emoji | | Link zu einer Liste von emoji's |
+|!eta | | zeigt, wie lange es dauert, bis du dran bist |
+|!fb | | verlinkt zur Facebook Seite des Raums (Falls es in den Optionen festgelegt ist) |
+|!gif | (message) | postet ein gif (von giphy) passend zu den Schlagwoertern. Postet ein zufälliges gif, wenn keine Schlagwoerter benutzt wurden. |
+|!help | | gibt Link, welcher Neulingen hilft |
+|!join | | dem Roulette beitreten, falls es aktiv ist |
+|!leave | | das Roulette verlassen |
+|!link | |wenn der User am Dj Pult ist, Link zum Song geben |
+|!op | | verlinkt zur Overplayed Playlist (Falls es in den Optionen festgelegt ist) |
 |!ping | | pong! |
-|!purchase | | returns link to purchase more plug notes |
-|!rules | | links to the rules (if set in the settings) |
-|!theme | | links to the room's theme (if set in the settings) |
-|!website | | links to the room's website (if set in the settings) |
-|!youtube | | links to the room's youtube page (if set in the settings) |
+|!purchase | | gibt Link zum Kauf von weiteren PlugNotes |
+|!rules | | verlinkt zu den Regeln (Falls es in den Optionen festgelegt ist) |
+|!theme | | verlinkt zum Thema des Raums (Falls es in den Optionen festgelegt ist) |
+|!website | | verlinkt zur Website des Raum's (Falls es in den Optionen festgelegt ist) |
+|!youtube | | verlinkt zum Youtube Kanal (Falls es in den Optionen festgelegt ist) |
 |!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ |
 |!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
