@@ -2315,7 +2315,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        var link = "(Updated link coming soon)";
+                        var link = "(http://support.plug.dj/hc/en-us/categories/200151458-Frequently-Asked-Questions)";
                         API.sendChat(subChat(basicBot.chat.starterhelp, {link: link}));
                     }
                 }
@@ -2900,6 +2900,19 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         API.sendChat(basicBot.chat.kreygasm)
+                    }
+                }
+            },
+            
+            bierCommand: {
+                command: 'bier',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.bier)
                     }
                 }
             },
