@@ -235,4 +235,7 @@
     "selfslap": "\/me schlägt sich selber.",
     "nouserslap": "\/me sieht %%NAME%% nicht im Raum und schlägt sich selber.",
     "slap": "\/me @%%NAMETO%%, %%NAMEFROM%% %%SLAP%%"
+    "selflauch": "\/me schlägt sich selber mit dem Plüschlauch :failfish: .",
+    "nouserlauch": "\/me sieht %%NAME%% nicht im Raum und schlägt sich selber mit dem Plüschlauch.",
+    "lauch": "\/me @%%NAMETO%% bekommt von %%NAMEFROM%% einen Plüsch-Lauch um die Ohren ! Du solltest dich rächen :4head: ! "
 }
