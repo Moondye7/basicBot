@@ -87,10 +87,10 @@ Resident DJ
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!active | (X) | shows how many users chatted in the past X minutes. If no X specified, 60 is set as default |
+|!active | (X) | Zeigt an, wieviele Benutzer in den letzten x Minuten gechattet haben. Wenn X nicht festgelegt ist, ist 60 als Standart festgelegt |
 |!ghostbuster | @user | überprüft, ob der Benutzer ghostet |
 |!voteratio | @user | stellt die Vote Statistik für den Nutzer dar |
-|!sessionstats | | display stats for the current session |
+|!sessionstats | | zeigt die Statistik der momentanen Session an |
 |!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! |
 |!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: |
 
