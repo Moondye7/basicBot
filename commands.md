@@ -42,7 +42,7 @@ Bouncer+
 |!songstats | | Aktiviert / Deaktiviert Song-Statistiken |
 |!unlock | | Entsperrt die Warteliste |
 |!welcome | | Aktiviert / Deaktiviert die Wilkommensnachricht |
-|!voteskip | (X) | Wenn eine bestimme anzahl and Meh's erreicht wurde wird der aktuelle Song geskippt  |
+|!voteskip | (X) | Wenn eine bestimmte Anzahl an "Mehs" die Anzahl der "Woots" um X übersteigt, wird der Song geskippt.  |
 
 Bouncer
 -------
