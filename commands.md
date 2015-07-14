@@ -91,8 +91,6 @@ Resident DJ
 |!ghostbuster | @user | überprüft, ob der Benutzer ghostet |
 |!voteratio | @user | stellt die Vote Statistik für den Nutzer dar |
 |!sessionstats | | zeigt die Statistik der momentanen Session an |
-Custom Commands
-|:------:|:---------:|:--------------------------------------:|
 |!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! |
 |!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: |
 
@@ -122,9 +120,6 @@ User
 |!theme | | Link zum Thema des Raums (Falls es in den Optionen festgelegt ist) |
 |!website | | Link zur Website des Raum's (Falls es in den Optionen festgelegt ist) |
 |!youtube | | Link zum Youtube Kanal (Falls es in den Optionen festgelegt ist) |
-
-Custom Commands
-
 |!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ |
 |!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
