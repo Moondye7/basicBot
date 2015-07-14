@@ -2,7 +2,7 @@ Moondye7 Plug DJ Commands:
 =========
 
 X legt eine Nummer fest  
-Arguments zwischen ( ) sind optional, daher nicht notwendig
+Argumente zwischen ( ) sind optional, daher nicht notwendig
 
 
 Manager
