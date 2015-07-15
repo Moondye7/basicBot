@@ -209,6 +209,7 @@
     "unmuted": "\/me [@%%NAME%%] Unmuted @%%USERNAME%%.",
     "muterank": "\/me [@%%NAME%%] Du kannst Benutzer nicht stumm schalten, welche den gleichen oder einen h\u00f6heren Rang als du haben.",
     "oplist": "\/me OP Liste: %%LINK%%",
+    "pluginlist": "\/me RCS Plug DJ Google Chrome Extension, Twitch Emoticons,Auto-Woot und vieles mehr: %%LINK%%",
     "pong": "\/me Pong!",
     "nicemoves": "\/me ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ",
     "softeis": "\/me isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst :md7kappa:",
