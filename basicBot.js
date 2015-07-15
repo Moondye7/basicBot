@@ -296,6 +296,7 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
+            pluginLink: https://goo.gl/kop7Md
             rulesLink: null,
             themeLink: null,
             fbLink: null,
@@ -2923,6 +2924,20 @@
                     else {
                         if (typeof basicBot.settings.opLink === "string")
                             return API.sendChat(subChat(basicBot.chat.oplist, {link: basicBot.settings.opLink}));
+                    }
+                }
+            },
+            
+            pluginCommand: {
+                command: 'plugin',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (typeof basicBot.settings.pluginLink === "string")
+                            return API.sendChat(subChat(basicBot.chat.pluginlist, {link: basicBot.settings.pluginLink}));
                     }
                 }
             },
