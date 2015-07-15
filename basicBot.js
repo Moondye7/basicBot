@@ -3897,7 +3897,7 @@
                     }
                 }
             }
-        }
+        } 
     };
     
     loadChat(basicBot.startup);
