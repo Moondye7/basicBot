@@ -10,7 +10,7 @@
     /*window.onerror = function() {
         var room = JSON.parse(localStorage.getItem("basicBotRoom"));
         window.location = 'https://plug.dj' + room.name;
-    };*/
+    };*/bi
 
     API.getWaitListPosition = function(id){
         if(typeof id === 'undefined' || id === null){
@@ -3723,6 +3723,19 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         API.sendChat(basicBot.chat.bier)
+                    }
+                }
+            },
+            
+            muggeCommand: {
+                command: 'mugge',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        API.sendChat(basicBot.chat.mugge)
                     }
                 }
             },
