@@ -296,7 +296,7 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            pluginLink: https://goo.gl/kop7Md
+            pluginLink: "https://goo.gl/kop7Md",
             rulesLink: null,
             themeLink: null,
             fbLink: null,
