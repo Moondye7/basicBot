@@ -19,7 +19,8 @@
         "gibt dir einen Oreo Keks mit einem Glas Milch!",
         "gibt dir einen Regenbogen Keks gemacht mit Liebe <3",
         "gibt dir einen alten Keks, der im Regen gelassen wurde. Er ist schimmlig.",
-        "backt dir einen frischen Keks, er schmeckt wunderbar."
+        "backt dir einen frischen Keks, er schmeckt wunderbar.",
+        "backt dir einen Moondye7Keks mit :md7lauch: "
     ],
     
     "slaps": [
@@ -36,13 +37,14 @@
         "verpasst dir einen Roundhouse Kick! Chuck Norris wäre stolz!",
         "verprügelt dich mit der Eisenstange, das wird Narben geben!",
         "verpasst dir einen FALCON PUNCH. Du bist gestorben.",
-        "ist ein Weichei und traut sich nicht, dich zu schlagen. :babyrage:"
+        "ist ein Weichei und traut sich nicht, dich zu schlagen. :babyrage:",
+        "schlägt dir in die Weichteile, du wirst wohl keine Kinder mehr bekommen können!"
         
         
     ],
     
     "lauchs": [
-        "einen Plüsch-Lauch um die Ohren ! Du solltest dich rächen :4head: ! "
+        "einen Plüsch-Lauch um die Ohren ! Du solltest dich rächen :4head: "
        
     ],
     
@@ -213,9 +215,10 @@
     "kreygasm": "\/me :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm:",
     "bier": "\/me  DRINK DAT BIER!!! :avabeer: :swiftrage:",
     "pjsalt": "\/me  DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt:",
-    "ritzenspalt": "\/me  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 gemacht hat :4head:",
+    "ritzenspalt": "\/me  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 angepasst hat :4head:",
     "moondye7": "\/me  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! ",
     "residentsleeper": "\/me  :residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper: ",
+    "simplex": "\/me  Simplex ist ein :md7lauch:, der den Bot mit Ritzenspalt zusammen am laufen hält",
     "reload": "\/me Bin gleich zur\u00fcck.",
     "removenotinwl": "\/me [@%%NAME%%] Benutzer @%%USERNAME%% ist nicht auf der Warteliste.",
     "roomrules": "\/me Du kannst die Regeln f\u00fcr den Chatroom hier finden: %%LINK%%",
