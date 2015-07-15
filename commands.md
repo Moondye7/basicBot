@@ -22,6 +22,7 @@ Manager
 |!maxlength | X | Legt die maximale Songlänge fest |
 |!logout | | Loggt den aktuellen Bot-Benutzer aus |
 |!refresh | | Lädt den Browser des Bot-Hosts neu |
+|!reload | | Bot neu Laden |
 |!usercmdcd | X | Legt den Zeitabstand fest indem user Befehle benutzen können |
 |!usercommands | | Aktiviert / Deaktiviert User-Befehle |
 |!mugge | |  ɪᴄʜ ʙɪɴ ᴅᴇʀ ʟɪᴇʙᴇ ᴍᴜɢɢᴇᴍᴀɴɴ <3 |
@@ -71,7 +72,6 @@ Bouncer
 |!lockskip | (reason) | überspringt, sperrt und verschiebt den Dj wieder nach oben (die Position kann mit !skippos festgelegt werden) |
 |!motd | (X)/(message) |Wenn kein Argument gesetzt ist, zeigt es die momentane Nachricht des Tages an, wenn jedoch X gesetzt ist, dann wird die Nachricht alle X Songs, falls eine Nachricht gesetzt ist, angezeigt.|
 |!mute | @user (X) | Nutzer stumm schalten, für X minuten, falls X festgelegt ist, ansonsten für eine undefinierte Zeitspanne |
-|!reload | | Bot neu Laden |
 |!restricteta | | aktiviert/deaktiviert die eingeschränkte Nutzung von !eta: Normale Nutzer können diesen command nur einmal pro Stunde benutzen |
 |!skip | (reason) | skippt den Dj mithilfe von smartskip. Aktionen wie schließen und verschieben hängen von verschiedenen Faktoren ab (die Position, auf die der Dj nach dem skip verschoben wird, kann mit!skippos festgelegt werden) |
 |!status | | Status und einige Optionen des Bot's anzeigen |
