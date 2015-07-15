@@ -127,6 +127,7 @@ User
 |!bier | |  DRINK DAT BIER!!! :avabeer: :swiftrage: |
 |!ritzenspalt | |  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 angepasst hat :4head:|
 |!simplex | | Simplex ist ein :md7lauch:, der den Bot mit Ritzenspalt zusammen am laufen hält |
+|!nazimod | | ༼, ͡ຈ ͜ʖ ͡ຈ,༽ ヽ____卐卐卐卐 - beachtet mich nicht... ich führe nur die Mods Gassi :4head|
 |!slap | | Schlag jemanden ins Gesicht! |
 |!residentsleeper | | residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper:  |
 
