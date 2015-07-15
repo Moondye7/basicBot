@@ -124,6 +124,7 @@ User
 |!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
 |!bier | |  DRINK DAT BIER!!! :avabeer: :swiftrage: |
+|!mugge | |  ɪᴄʜ ʙɪɴ ᴅᴇʀ ʟɪᴇʙᴇ ᴍᴜɢɢᴇᴍᴀɴɴ <3 |
 |!ritzenspalt | |  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 angepasst hat :4head:|
 |!simplex | | Simplex ist ein :md7lauch:, der den Bot mit Ritzenspalt zusammen am laufen hält |
 |!slap | | Schlag jemanden ins Gesicht! |
