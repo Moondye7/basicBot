@@ -119,6 +119,7 @@ User
 |!rules | | Link zu den Regeln (Falls es in den Optionen festgelegt ist) |
 |!theme | | Link zum Thema des Raums (Falls es in den Optionen festgelegt ist) |
 |!social | | Link zu allen Moondye7 Social Links |
+|!plugin | | Link zum empfohlenen PlugDj Plugin |
 |!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ |
 |!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
