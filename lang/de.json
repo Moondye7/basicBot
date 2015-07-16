@@ -136,7 +136,7 @@
     "toggleoff": "\/me [@%%NAME%%] %%FUNCTION%% deaktiviert.",
     "cmddeletion": "Befehll\u00f6schung",
     "afkremoval": "AFK Entfernung",
-    "afksremoved": "AFK ist entfernt",
+    "afksremoved": "Aufgrund von AFK entfernt",
     "afklimit": "AFK Limit",
     "autodisable": "Autodeaktivierung",
     "autoskip": "Autoskip",
