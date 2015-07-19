@@ -40,7 +40,7 @@ Bouncer+
 |!lockdown | | Sperrt den Chat. Nur Bouncer, Manager und Host/Co-Hosts können chatten |
 |!move | @user (X) | verschiebt einen User zu einer bestimmten Position in der Warteliste |
 |!remove | @user | Entfernt einen Nutzer von der Warteliste |
-|!roulette | | Startet ein Roulette |
+|~~!roulette~~ | | ~~Startet ein Roulette~~ |
 |!songstats | | Aktiviert / Deaktiviert Song-Statistiken |
 |!unlock | | Entsperrt die Warteliste |
 |!welcome | | Aktiviert / Deaktiviert die Wilkommensnachricht |
@@ -54,7 +54,7 @@ Bouncer
 |!afkreset | @user | setzt den afk Timer eines Nutzers zurück |
 |!afktime | @user | zeigt, wie lange ein Nutzer bereits afk ist |
 |!autodisable | | Wenn es aktiviert ist, sendet der Bot !afkdisable und !joindsiable jede Stunde aus. Das deaktiviert Afk Nachrichten und Autojoining auf plugcubed |
-|!ban | @user | Nutzer für 1 Tag verbannen |
+|~~!ban~~ | ~~@user~~ | ~~Nutzer für 1 Tag verbannen~~ |
 |!blacklist / !bl | blacklistname | Song zu der festgelegten Blacklist hinzufügen |
 |!commanddeletion | |Befehlslöschung aktivieren/deaktivieren |
 |!blinfo | | erhalte Informationen, um den Song auf die Blacklist zu setzen |
@@ -66,7 +66,7 @@ Bouncer
 |!forceskip | | überspringt den momentanen Song |
 |!historyskip | | aktiviert/deaktiviert das Überspringen von bereits gespielten Songs |
 |!jointime | @user | zeigt, wie lange der Nutzer schon anwesend ist |
-|!kick | (X) | kickt Nutzer für X Minuten, Standard ist 0.25 (15 sekunden) |
+|~~!kick~~ | ~~(X)~~ | ~~kickt Nutzer für X Minuten, Standard ist 0.25 (15 sekunden)~~ |
 |!kill | | deaktiviert den Bot |
 |!lockguard | | aktiviert/deaktiviert den lookguard |
 |!lockskip | (reason) | überspringt, sperrt und verschiebt den Dj wieder nach oben (die Position kann mit !skippos festgelegt werden) |
