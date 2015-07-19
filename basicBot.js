@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.8.9",
+        version: "2.8.10",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -1735,7 +1735,7 @@
 
             banCommand: {
                 command: 'ban',
-                rank: 'bouncer',
+                rank: 'admin',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -2456,7 +2456,7 @@
 
             kickCommand: {
                 command: 'kick',
-                rank: 'bouncer',
+                rank: 'admin',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
