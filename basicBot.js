@@ -3895,7 +3895,7 @@
                         data: JSON.stringify({
                             isLocked: false,
                             removeAllDJs: false })
-                        });
+                        }
                     }
                 }
             }
