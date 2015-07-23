@@ -3861,7 +3861,6 @@
             },
             
 
-
             whoisCommand: {
                 command: 'whois',
                 rank: 'bouncer',
