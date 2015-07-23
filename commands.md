@@ -25,6 +25,7 @@ Manager
 |!reload | | Bot neu Laden |
 |!usercmdcd | X | Legt den Zeitabstand fest indem user Befehle benutzen können |
 |!usercommands | | Aktiviert / Deaktiviert User-Befehle |
+|!clearqueue | | Leert und schließt die Warteliste |
 |!mugge | |  ɪᴄʜ ʙɪɴ ᴅᴇʀ ʟɪᴇʙᴇ ᴍᴜɢɢᴇᴍᴀɴɴ <3 |
 
 Bouncer+
