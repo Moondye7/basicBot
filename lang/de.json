@@ -183,7 +183,7 @@
     "eta": "\/me @%%NAME%%, du bist in der Position %%POSITION%% in der Warteliste und wirst in ungef\u00e4hr %%TIME%% Minuten dran sein.",
     "facebook": "\/me Like uns auf facebook: %%LINK%%",
     "social": "\/me Hier findest du alle Moondye7 Social Links: http://www.twitch.tv/moondye7 Twitch  https://twitter.com/Moondye7 Twitter  https://www.youtube.com/user/Moondye7 Youtube  https://www.facebook.com/Moondye7 Facebook",
-    "starterhelp": "\/me Dieser Link hilft dir, auf Plug.Dj besser klar zu kommen: %%LINK%%",
+    "starterhelp": "\/me Dieser Link hilft dir, auf Plug.Dj besser klar zu kommen: %%LINK%% oder guck dir dieses Bild an :http://i.imgur.com/SBAso1N.jpg",
     "roulettejoin": "@%%NAME%% ist dem Roulette beigetreten (F\u00fchr den Befehl !leave aus, wenn du es verlassen willst).",
     "jointime": "\/me [@%%NAMEFROM%%] @%%USERNAME%% ist schon im Chatraum seit %%TIME%% Minuten.",
     "kickrank": "\/me [@%%NAME%%] Du kannst keine Benutzer kicken, die den gleichen oder einen h\u00f6heren Rang als du haben!",
