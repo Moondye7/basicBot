@@ -132,4 +132,4 @@ User
 |!nextstream | | verkündet: Kein Mensch weiß, wann der nächste Stream kommt! Unter der Woche zwischen 2 und 3 Uhr stehen die Chancen aber ungemein besser. |
 |!riot |  |୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ |
 |!residentsleeper | | residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper:  |
-verkündet: Kein Mensch weiß, wann der nächste Stream kommt! Unter der Woche zwischen 2 und 3 Uhr stehen die Chancen aber ungemein besser.
+
