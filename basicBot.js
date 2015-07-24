@@ -292,6 +292,9 @@
             motdEnabled: false,
             motdInterval: 5,
             motd: "Temporary Message of the Day",
+            socialEnabled: false,
+            socialInterval: 5,
+            social: "Moondye7 Social Links",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
@@ -761,6 +764,24 @@
                     var msg;
                     if (basicBot.settings.motdEnabled) {
                         msg = basicBot.settings.motd;
+                    }
+                    else {
+                        if (basicBot.settings.intervalMessages.length === 0) return void (0);
+                        var messageNumber = basicBot.room.roomstats.songCount % basicBot.settings.intervalMessages.length;
+                        msg = basicBot.settings.intervalMessages[messageNumber];
+                    }
+                    API.sendChat('/me ' + msg);
+                }
+            },
+            
+            intervalMessage: function () {
+                var interval;
+                if (basicBot.settings.socialEnabled) interval = basicBot.settings.socialInterval;
+                else interval = basicBot.settings.messageInterval;
+                if ((basicBot.room.roomstats.songCount % interval) === 0 && basicBot.status) {
+                    var msg;
+                    if (basicBot.settings.socialEnabled) {
+                        msg = basicBot.settings.social;
                     }
                     else {
                         if (basicBot.settings.intervalMessages.length === 0) return void (0);
@@ -2790,6 +2811,30 @@
                     }
                 }
             },
+            
+               socialCommand: {
+                command: 'social',
+                rank: 'bouncer',
+                type: 'startsWith',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+                        if (msg.length <= cmd.length + 1) return API.sendChat('/me Social: ' + basicBot.settings.social);
+                        var argument = msg.substring(cmd.length + 1);
+                        if (!basicBot.settings.socialEnabled) basicBot.settings.socialEnabled = !basicBot.settings.socialEnabled;
+                        if (isNaN(argument)) {
+                            basicBot.settings.social = argument;
+                            API.sendChat(subChat(basicBot.chat.socialset, {msg: basicBot.settings.social}));
+                        }
+                        else {
+                            basicBot.settings.socialInterval = argument;
+                            API.sendChat(subChat(basicBot.chat.socialintervalset, {interval: basicBot.settings.socialInterval}));
+                        }
+                    }
+                }
+            },
 
             moveCommand: {
                 command: 'move',
@@ -3661,19 +3706,8 @@
                 }
             },
             
-            socialCommand: {
-                command: 'social',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        API.sendChat(basicBot.chat.social)
-                    }
-                }
-            },
             
+    
         
             nicemovesCommand: {
                 command: 'nicemoves',
