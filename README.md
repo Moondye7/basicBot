@@ -1,10 +1,35 @@
-basicBot
+Moondye7 Bot
+
+[![twitter](http://i.benzi.io/4KEn.svg)](https://twitter.com/Moondye7)
+[![youtube](http://i.benzi.io/4KEn.svg)](https://youtube.com/Moondye7)
+
+
+
+
+
+
+
 ========
 
-A not so basic bot for plug.dj
+Warning: This is not mine i do not own this i'v only uploaded it as MY custom i'v edited a few things to suit my plug.dj room
+======================
+Click [here](https://github.com/Yemasthui/basicBot) for basicBot's main repository.
+Click [here](https://github.com/Yemasthui/basicBot-customization) for basicBot's customization repository.
+Click [here](https://github.com/Yemasthui) for basicBot's Creator.
 
-[Get the Chrome Extension](https://chrome.google.com/webstore/detail/basicbot/bjinmbkeneigmkkkpcmcokphbjkepeie)
+Created by [Yemasthui](https://github.com/Yemasthui) but now maintained by [Benzi](https://github.com/Benzi)
+
+Copyright
+---------
+Copyright &copy; 2014 Yemasthui
 ---------------------------------------------------------------------
+
+
+
+
+
+
+
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Yemasthui/basicBot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![facebook group](http://i.benzi.io/97dW.svg)](https://facebook.com/groups/basicBot) [![twitter](http://i.benzi.io/4KEn.svg)](https://twitter.com/bscBt)
 
