@@ -227,6 +227,7 @@
     "simplex": "\/me  Simplex ist ein :md7lauch:, der den Bot mit Ritzenspalt zusammen am laufen hält.",
     "riot": "\/me  ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨",
     "nazibot": "\/me ist ein custom Plug.Dj Bot, der von Ritzenspalt und Simplex für Moondye7 angepasst wurde. Das Ziel ist, dass er das Erbe von Hitler antritt und zusammen mit den NaziMods irgendwann die Welt übernehmen kann. ",
+    "changelog": "\/me Hier stehen alle Veränderungen, die an dem Bot gemacht wurden: (https://github.com/Moondye7/basicBot/blob/master/ChangeLog) ",
     "reload": "\/me Bin gleich zur\u00fcck.",
     "removenotinwl": "\/me [@%%NAME%%] Benutzer @%%USERNAME%% ist nicht auf der Warteliste.",
     "roomrules": "\/me Du kannst die Regeln f\u00fcr den Chatroom hier finden: %%LINK%%",
