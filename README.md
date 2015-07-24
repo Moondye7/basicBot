@@ -42,7 +42,7 @@ Click [here](https://github.com/Yemasthui) for basicBot's Creator.
 Created by [Yemasthui](https://github.com/Yemasthui) but now maintained by [Benzi](https://github.com/Benzi)
 <br>
 ---------
-Copyright &copy; 2015 Yemasthui
+**Copyright &copy; 2015 Yemasthui**
 ---------------------------------------------------------------------
 
 
