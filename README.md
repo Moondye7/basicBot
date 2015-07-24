@@ -19,11 +19,24 @@ Moondye7 Bot
 [![plugdj] (http://i.imgur.com/MKRdCaL.png)](https://plug.dj/moondye7stream)
 
 
+Click [here](https://raw.githubusercontent.com/Moondye7/basicBot/master/commands.md) for MoondyeBot's command list.
+<br>
+Click [here](https://raw.githubusercontent.com/Moondye7/basicBot/master/ChangeLog) for MoondyeBot's change log.
+<br>
+
+---------
+Contact Ritzenspalt by clicking [here](https://twitter.com/Frozenlecker)
+---------------------------------------------------------------------
 
 
-
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
