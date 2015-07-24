@@ -130,7 +130,8 @@ User
 |!simplex | | Simplex ist ein :md7lauch:, der den Bot mit Ritzenspalt zusammen am laufen hält |
 |!nazimod | | ༼, ͡ຈ ͜ʖ ͡ຈ,༽ ヽ____卐卐卐卐 - beachtet mich nicht... ich führe nur die Mods Gassi :4head|
 |!slap | @user | Schlag jemanden ins Gesicht! |
+|!changelog | | Hier stehen alle Veränderungen, die an dem Bot gemacht wurden: (https://github.com/Moondye7/basicBot/blob/master/ChangeLog) |
 |!nextstream | | verkündet: Kein Mensch weiß, wann der nächste Stream kommt! Unter der Woche zwischen 2 und 3 Uhr stehen die Chancen aber ungemein besser. |
 |!riot |  |୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ |
 |!residentsleeper | | residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper:  |
-
+Hier stehen alle Veränderungen, die an dem Bot gemacht wurden: (https://github.com/Moondye7/basicBot/blob/master/ChangeLog)
