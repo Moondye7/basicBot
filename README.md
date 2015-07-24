@@ -1,7 +1,9 @@
-Moondye7 Bot
+======================
 
-[![twitter](http://i.benzi.io/4KEn.svg)](https://twitter.com/Moondye7)
-[![youtube](http://i.benzi.io/4KEn.svg)](https://youtube.com/Moondye7)
+Moondye7 Bot
+======================
+[![twitter](http://i.imgur.com/Ospd1kG.png)](https://twitter.com/Moondye7)
+[![youtube](http://i.imgur.com/vdg8V0d.png)](https://youtube.com/Moondye7)
 
 
 
