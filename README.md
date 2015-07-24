@@ -41,9 +41,8 @@ Click [here](https://github.com/Yemasthui) for basicBot's Creator.
 <br>
 Created by [Yemasthui](https://github.com/Yemasthui) but now maintained by [Benzi](https://github.com/Benzi)
 <br>
-Copyright
 ---------
-Copyright &copy; 2014 Yemasthui
+Copyright &copy; 2015 Yemasthui
 ---------------------------------------------------------------------
 
 
