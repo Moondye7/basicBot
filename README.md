@@ -2,11 +2,16 @@
 
 Moondye7 Bot
 ======================
+
+Visit 
+[![twitch](http://i.imgur.com/DqrUPvM.png)](http://www.twitch.tv/Moondye7)
 [![twitter](http://i.imgur.com/KEa92iz.png)](https://twitter.com/Moondye7)
 [![youtube](http://i.imgur.com/vdg8V0d.png)](https://youtube.com/Moondye7)
 [![facebook](http://i.imgur.com/Ospd1kG.png)](https://facebook.com/Moondye7)
 [![plugdj] (http://i.imgur.com/MKRdCaL.png)](https://plug.dj/moondye7stream)
 
+
+http://i.imgur.com/DqrUPvM.png
 
 
 
