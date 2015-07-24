@@ -3,7 +3,6 @@
 Moondye7 Bot
 ======================
 
-======================
 This is a plug.dj custom bot created by  [Yemasthui](https://github.com/Yemasthui) and customized by [Ritzenspalt](https://github.com/Moondye7) and run by [Simplex](https://github.com/LordSimplex)
 
 ======================
