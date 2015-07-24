@@ -23,6 +23,7 @@ Manager
 |!logout | | Loggt den aktuellen Bot-Benutzer aus |
 |!refresh | | Lädt den Browser des Bot-Hosts neu |
 |!reload | | Bot neu Laden |
+|!maxusers | | Zeigt die höchste Anzahl an Nutzern an, die jemals im Chatraum waren |
 |!usercmdcd | X | Legt den Zeitabstand fest indem user Befehle benutzen können |
 |!usercommands | | Aktiviert / Deaktiviert User-Befehle |
 |!clearqueue | | Leert und schließt die Warteliste |
