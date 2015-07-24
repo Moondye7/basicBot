@@ -32,4 +32,4 @@ added "clearqueue" command, added interval to "social" message, added "changelog
 
 24/7/2015
 
-changed bot description (README.md)
+changed bot description (README.md), added "maxusers" command
