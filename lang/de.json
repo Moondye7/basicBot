@@ -151,7 +151,7 @@
     "lockguard": "lockguard",
     "usercommands": "usercommands",
     "motd": "MotD",
-    "social": "social",
+    "social": "",
     "welcomemsg": "Willkommen Nachricht",
     "songstats": "Song Statistik",
     "etarestriction": "eta restriction",
