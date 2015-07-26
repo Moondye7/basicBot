@@ -246,7 +246,7 @@
     "unmuterank": "\/me [@%%NAME%%] Du kannst  Personen mit einem Rank, der gleich oder h\u00f6her ist als deiner, nicht unmuten.",
     "commandscd": "\/me [@%%NAME%%] Der cooldown f\u00fcr Commands ist nun festgelegt auf %%TIME%% seconds.",
     "voteratio": "\/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, ratio (w\/m): %%RATIO%%.",
-    "website": "\/me Bitte besuch unsere Website: %%LINK%%",
+    "twitch": "\/me Moondye7 Stream <3: %%LINK%%",
     "youtube": "\/me [%%NAME%%] Subscribe unseren Youtube Channel! %%LINK%%",
     "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%W\/%%GRABS%%G\/%%MEHS%%M.",
     "selfslap": "\/me schlägt sich selber.",
