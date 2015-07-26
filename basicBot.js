@@ -304,7 +304,7 @@
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            Twitch: null,
+            twitch: null,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -3692,8 +3692,8 @@
                 }
             },
 
-            TwitchCommand: {
-                command: 'Twitch',
+            twitchCommand: {
+                command: 'twitch',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
@@ -3701,7 +3701,7 @@
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         if (typeof basicBot.settings.website === "string")
-                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.Twitch}));
+                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.twitch}));
                     }
                 }
             },
