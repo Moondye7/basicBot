@@ -19,7 +19,6 @@ Manager
 |!cycletimer | X | Legt fest wielange die es dauert bis ein Song mit !cycleguard übersprungen wird |
 |!language | (language) | Stellt die Sprache des Bots ein |
 |!locktimer | X | Legt fest wielange die Waitlist bei einem !lockguard gesperrt ist |
-|!maxlength | X | Legt die maximale Songlänge fest |
 |!logout | | Loggt den aktuellen Bot-Benutzer aus |
 |!refresh | | Lädt den Browser des Bot-Hosts neu |
 |!reload | | Bot neu Laden |
@@ -27,7 +26,8 @@ Manager
 |!usercmdcd | X | Legt den Zeitabstand fest indem user Befehle benutzen können |
 |!usercommands | | Aktiviert / Deaktiviert User-Befehle |
 |!clearqueue | | Leert und schließt die Warteliste |
-|!mugge | |  ɪᴄʜ ʙɪɴ ᴅᴇʀ ʟɪᴇʙᴇ ᴍᴜɢɢᴇᴍᴀɴɴ <3 |
+|~~!roulette~~ | | ~~Startet ein Roulette~~ |
+
 
 Bouncer+
 --------
@@ -42,10 +42,11 @@ Bouncer+
 |!lockdown | | Sperrt den Chat. Nur Bouncer, Manager und Host/Co-Hosts können chatten |
 |!move | @user (X) | verschiebt einen User zu einer bestimmten Position in der Warteliste |
 |!remove | @user | Entfernt einen Nutzer von der Warteliste |
-|~~!roulette~~ | | ~~Startet ein Roulette~~ |
 |!songstats | | Aktiviert / Deaktiviert Song-Statistiken |
 |!unlock | | Entsperrt die Warteliste |
 |!welcome | | Aktiviert / Deaktiviert die Wilkommensnachricht |
+|!skippos | X | Legt die Position fest, an die Nutzer verschoben werden, nachdem sie übersprungen wurden |
+|!maxlength | X | Legt die maximale Songlänge fest |
 |!voteskip | (X) | Wenn eine bestimmte Anzahl an "Mehs" die Anzahl der "Woots" um X übersteigt, wird der Song geskippt.  |
 
 Bouncer
@@ -75,7 +76,7 @@ Bouncer
 |!motd | (X)/(message) |Wenn kein Argument gesetzt ist, zeigt es die momentane Nachricht des Tages an, wenn jedoch X gesetzt ist, dann wird die Nachricht alle X Songs, falls eine Nachricht gesetzt ist, angezeigt.|
 |!mute | @user (X) | Nutzer stumm schalten, für X minuten, falls X festgelegt ist, ansonsten für eine undefinierte Zeitspanne |
 |!restricteta | | aktiviert/deaktiviert die eingeschränkte Nutzung von !eta: Normale Nutzer können diesen command nur einmal pro Stunde benutzen |
-|!skip | (reason) | skippt den Dj mithilfe von smartskip. Aktionen wie schließen und verschieben hängen von verschiedenen Faktoren ab (die Position, auf die der Dj nach dem skip verschoben wird, kann mit!skippos festgelegt werden) |
+|!skip | (reason) | skippt den Dj  (die Position, auf die der Dj nach dem skip verschoben wird, kann mit!skippos festgelegt werden) |
 |!status | | Status und einige Optionen des Bot's anzeigen |
 |!timeguard | | Zeitwächter aktivieren/deaktivieren |
 |!togglebl | | Blacklist aktivieren/deaktivieren |
@@ -94,9 +95,7 @@ Resident DJ
 |!ghostbuster | @user | überprüft, ob der Benutzer ghostet |
 |!voteratio | @user | stellt die Vote Statistik für den Nutzer dar |
 |!sessionstats | | zeigt die Statistik der momentanen Session an |
-|!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! |
-|!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: |
-|!lauch | @user | Schlag jemanden mit einem Plüschlauch! |
+
 
 User
 ----
@@ -123,15 +122,26 @@ User
 |!theme | | Link zum Thema des Raums (Falls es in den Optionen festgelegt ist) |
 |!social | | Link zu allen Moondye7 Social Links |
 |!plugin | | Link zum empfohlenen PlugDj Plugin |
-|!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ |
-|!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:|
-|!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: |
-|!bier | |  DRINK DAT BIER!!! :avabeer: :swiftrage: |
-|!ritzenspalt | |  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 angepasst hat :4head:|
-|!simplex | | Simplex ist ein :md7lauch:, der den Bot mit Ritzenspalt zusammen am laufen hält |
-|!nazimod | | ༼, ͡ຈ ͜ʖ ͡ຈ,༽ ヽ____卐卐卐卐 - beachtet mich nicht... ich führe nur die Mods Gassi :4head|
-|!slap | @user | Schlag jemanden ins Gesicht! |
-|!changelog | | Hier stehen alle Veränderungen, die an dem Bot gemacht wurden: (https://github.com/Moondye7/basicBot/blob/master/ChangeLog) |
-|!nextstream | | verkündet: Kein Mensch weiß, wann der nächste Stream kommt! Unter der Woche zwischen 2 und 3 Uhr stehen die Chancen aber ungemein besser. |
-|!riot |  |୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ |
-|!residentsleeper | | residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper:  |
+
+
+Custom Commands (Extra für Moondye7)
+----
+
+|Command | Arguments |  Beschreibung | Benötigter Rang |
+|:------:|:---------:|:--------------------------------------:|:---------:|
+|!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ | User |
+|!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:| User |
+|!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: | User |
+|!bier | |  DRINK DAT BIER!!! :avabeer: :swiftrage: | User |
+|!ritzenspalt | |  Ritzenspalt ist ein kleines ScriptKiddie :babyrage: , welches diesen Bot für Moondye7 angepasst hat :4head:| User |
+|!simplex | | Simplex ist ein :md7lauch:, der den Bot mit Ritzenspalt zusammen am laufen hält | User |
+|!nazimod | | ༼, ͡ຈ ͜ʖ ͡ຈ,༽ ヽ____卐卐卐卐 - beachtet mich nicht... ich führe nur die Mods Gassi :4head: | User |
+|!slap | @user | Schlag jemanden ins Gesicht! | User |
+|!changelog | | Hier stehen alle Veränderungen, die an dem Bot gemacht wurden: (https://github.com/Moondye7/basicBot/blob/master/ChangeLog) | User |
+|!nextstream | | verkündet: Kein Mensch weiß, wann der nächste Stream kommt! Unter der Woche zwischen 2 und 3 Uhr stehen die Chancen aber ungemein besser. | User |
+|!riot |  |୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ ୧༼ಠ益ಠ༽୨ NOW WE RIOT ୧༼ಠ益ಠ༽୨ | User |
+|!residentsleeper | | residentsleeper: FORCED :residentsleeper: TO :residentsleeper: WATCH :residentsleeper: MOONDYE7 :residentsleeper: BECAUSE :residentsleeper:  FORSEN :residentsleeper:  IS :residentsleeper: OFFLINE :residentsleeper:  | User |
+|!moondye7 | |  Moondye unser im Himmel, geheiligt werde dein YouTubeAccount. Dein Skill komme. Dein Sieg geschehe, wie bei DayZ, so bei Battle Royale. Bringe uns den Cancer durch Plug.Dj. Denn dein ist die Intelligenz und die Freundlickeit in Ewigkeit. AMENO! | Resident DJ |
+|!pjsalt | | DANIEL DU BLUTEST! Nimm das für deine Wunden :pjsalt: | Resident DJ |
+|!lauch | @user | Schlag jemanden mit einem Plüschlauch! | Resident DJ |
+|!mugge | |  ɪᴄʜ ʙɪɴ ᴅᴇʀ ʟɪᴇʙᴇ ᴍᴜɢɢᴇᴍᴀɴɴ <3 | Manager | 
