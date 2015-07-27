@@ -13,7 +13,6 @@ Manager
 |!afklimit | X | Legt die maximale AFK-Zeit fest |
 |!botname | (botname) | Ändert den Botnamen |
 |!bouncer+ | | An / Ausschalten von Bouncer+ |
-|!skippos | X | Legt die Position fest, an die Nutzer verschoben werden nachdem sie übersprungen wurden |
 |!clearchat | | Leert den Chat |
 |!cycle | | Aktiviert den DJ-Zyklus |
 |!cycletimer | X | Legt fest wielange die es dauert bis ein Song mit !cycleguard übersprungen wird |
