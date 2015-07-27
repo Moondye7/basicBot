@@ -166,7 +166,7 @@
     "inactivefor": "\/me [@%%NAME%%] @%%USERNAME%% ist inaktiv seit %%TIME%%.",
     "inactivelonger": "\/me [@%%NAME%%] @%%USERNAME%% war l\u00e4nger inaktiv als %%BOTNAME%%'s online ist.",
     "autowoot": "\/me Wir empfehlen RCS f\u00fcr autowooting: https://goo.gl/kop7Md",
-    "brandambassador": "\/me A Brand Ambassador ist die Stimme der plug.dj users. Sie promoten und unterst\u00fctzen die Community und teilen die Plug.Dj Nachricht \u00fcber die ganze Welt.https:\/\/plug.dj\/ba",
+    "brandambassador": "\/me Brand Ambassador sind die Stimme der Plug.dj Benutzer. Sie promoten und unterst\u00fctzen die Community und teilen die Plug.Dj Nachricht \u00fcber die ganze Welt. Hier kannst du dich dafür bewerben: https:\/\/plug.dj\/ba",
     "bouncerplusrank": "\/me [@%%NAME%%] Du musst ein Manager sein oder die F\u00e4higkeit haben, Bouncer+ zu aktivieren.",
     "chatcleared": "\/me [@%%NAME%%] hat den Chat gereinigt.",
     "deletechat": "\/me [@%%NAME%%] hat alle Nachrichten von  %%USERNAME%% entfernt.",
