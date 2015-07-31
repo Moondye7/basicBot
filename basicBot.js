@@ -3747,7 +3747,7 @@
             },
             
              socialCommand: {
-                command: 'social',
+                command: 'social', 
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
