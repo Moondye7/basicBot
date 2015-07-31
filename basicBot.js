@@ -3734,7 +3734,7 @@
             },
             
             cancerCommand: {
-                command: 'mugge',
+                command: 'cancer',
                 rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
