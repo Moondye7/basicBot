@@ -129,6 +129,7 @@ Custom Commands (Extra für Moondye7)
 |Command | Arguments |  Beschreibung | Benötigter Rang |
 |:------:|:---------:|:--------------------------------------:|:---------:|
 |!nicemoves| |  ┗(＾0＾)┓ N I C E M O V E S ᕕ(⌐■_■)ᕗ | User |
+|!cancer | | Lass dich überraschen, was hier steht! |
 |!softeis | | isst das Softeis selber :4head: Du hast doch nicht geglaubt, dass du einfach so ein Softeis bekommst:md7kappa:| User |
 |!kreygasm | | :kreygasm: NOW :kreygasm: THIS :kreygasm: IS :kreygasm: WHAT :kreygasm: I :kreygasm: CALL :kreygasm: MUSIC :kreygasm: | User |
 |!bier | |  DRINK DAT BIER!!! :avabeer: :swiftrage: | User |
