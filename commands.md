@@ -25,7 +25,7 @@ Manager
 |!usercmdcd | X | Legt den Zeitabstand fest indem user Befehle benutzen können |
 |!usercommands | | Aktiviert / Deaktiviert User-Befehle |
 |!clearqueue | | Leert und schließt die Warteliste |
-|~~!roulette~~ | | ~~Startet ein Roulette~~ |
+|!roulette | | Startet das Roulette. Benutzer können mit !join das Roulette beitreten und mit !leave es wieder verlassen. |
 
 
 Bouncer+
