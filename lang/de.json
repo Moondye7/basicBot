@@ -131,7 +131,7 @@
     "nolimitspecified": "\/me [@%%NAME%%] Kein Limit festgelegt.",
     "invalidlimitspecified": "\/me [@%%NAME%%] Ung\u00fcltiges Limit.",
     "invalidpositionspecified": "\/me [@%%NAME%%] Ung\u00fcltige Position festgelegt.",
-    "whois": "\/me [%%NAME1%%] Benutzername: %%NAME2%%, ID: %%ID%%, Rang: %%RANK%%, Beigetreten: %%JOINED%%, Level: %%LEVEL%%, Sprache: %%LANGUAGE%%, Avatar: %%AVATAR%%, Status: %%STATUS%%%%PROFILE%%",
+    "whois": "\/me [%%NAME1%%] Benutzername: %%NAME2%%, ID: %%ID%%, Rang: %%RANK%%, Beigetreten: %%JOINED%%, Level: %%LEVEL%%, Sprache: %%LANGUAGE%%, Avatar: %%AVATAR%%, Status: %%STATUS%% %%PROFILE%%",
     "toggleon": "\/me [@%%NAME%%] %%FUNCTION%% aktiviert.",
     "toggleoff": "\/me [@%%NAME%%] %%FUNCTION%% deaktiviert.",
     "cmddeletion": "Befehll\u00f6schung",
