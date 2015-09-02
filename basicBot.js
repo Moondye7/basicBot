@@ -1753,6 +1753,9 @@
                         var name = msg.substr(cmd.length + 2);
                         var user = basicBot.userUtilities.lookupUserName(name);
                         if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
+                         var permFrom = basicBot.userUtilities.getPermission(chat.uid);
++                        var permUser = basicBot.userUtilities.getPermission(user.id);
++                        if (permUser >= permFrom) return void(0);
                         API.moderateBanUser(user.id, 1, API.BAN.DAY);
                     }
                 }
@@ -2567,7 +2570,7 @@
                         if (dj === chat.uid) isDj = true;
                         if (perm >= 1 || isDj) {
                             if (media.format === 1) {
-                                var linkToSong = "http://youtu.be/" + media.cid;
+                                var linkToSong = "https://youtu.be/" + media.cid;
                                 API.sendChat(subChat(basicBot.chat.songlink, {name: from, link: linkToSong}));
                             }
                             if (media.format === 2) {
