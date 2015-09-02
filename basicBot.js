@@ -2124,6 +2124,10 @@
                 }
             },
 
+
+
++           
+
         deletechatCommand: {
 +                command: 'deletechat',
 +                rank: 'mod',
