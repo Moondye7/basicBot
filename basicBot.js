@@ -315,6 +315,7 @@
         },
         room: {
             name: null,
+            chatMessages: [],
             users: [],
             afkList: [],
             mutedUsers: [],
@@ -833,6 +834,7 @@
             chat.message = linkFixer(chat.message);
             chat.message = decodeEntities(chat.message);
             chat.message = chat.message.trim();
+            basicBot.room.chatMessages.push([chat.cid, chat.message, chat.sub, chat.timestamp, chat.type, chat.uid, chat.un]);
             for (var i = 0; i < basicBot.room.users.length; i++) {
                 if (basicBot.room.users[i].id === chat.uid) {
                     basicBot.userUtilities.setLastActivity(basicBot.room.users[i]);
@@ -2156,6 +2158,30 @@
                     }
                 }
             },*/
+            
+            deletechatCommand: {
++                command: 'deletechat',
++                rank: 'mod',
++                type: 'startsWith',
++                functionality: function (chat, cmd) {
++                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
++                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
++                    else {
++                        var msg = chat.message;
++                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
++                        var name = msg.substring(cmd.length + 2);
++                        var user = basicBot.userUtilities.lookupUserName(name);
++                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
++                        for (var i = 1; i < basicBot.room.chatMessages.length; i++) {
++                          if (basicBot.room.chatMessages[i].indexOf(user.id) > -1){
++                            API.moderateDeleteChat(basicBot.room.chatMessages[i][0]);
++                            basicBot.room.chatMessages[i].splice(0);
++                          }
++                        }
++                        API.sendChat(subChat(basicBot.chat.deletechat, {name: chat.un, username: name}));
++                    }
++                }
++            },
 
             emojiCommand: {
                 command: 'emoji',
