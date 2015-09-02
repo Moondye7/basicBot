@@ -835,9 +835,7 @@
             chat.message = decodeEntities(chat.message);
             chat.message = chat.message.trim();
             
-            basicBot.room.chatMessages.push([chat.cid, chat.message, chat.sub, chat.timestamp, chat.type, chat.uid, chat.un]);
-            
-            for (var i = 0; i < basicBot.room.users.length; i++) {
+             for (var i = 0; i < basicBot.room.users.length; i++) {
                 if (basicBot.room.users[i].id === chat.uid) {
                     basicBot.userUtilities.setLastActivity(basicBot.room.users[i]);
                     if (basicBot.room.users[i].username !== chat.un) {
