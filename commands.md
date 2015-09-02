@@ -36,7 +36,7 @@ Bouncer+
 |!add | @user | Fügt einen User zur Warteliste hinzu |
 |!afkremoval | | Aktiviert / Deaktiviert den AFK-Check |
 |!autoskip | | Überspringt Songs automatisch im Falle eines Cyclebugs |
-|~~!deletechat~~ | ~~@user~~ | ~~Löscht alle Nachrichten eines Users~~ |
+|!deletechat | @user | Löscht alle Nachrichten eines Users |
 |!lock | | Sperrt die Warteliste |
 |!lockdown | | Sperrt den Chat. Nur Bouncer, Manager und Host/Co-Hosts können chatten |
 |!move | @user (X) | verschiebt einen User zu einer bestimmten Position in der Warteliste |
