@@ -210,7 +210,7 @@
       return this.substring(0, str.length) === str;
     };
 
-    var linkFixer = function (msg) {
+    function linkFixer(msg) {
         var parts = msg.splitBetween('<a href="', '<\/a>');
         for (var i = 1; i < parts.length; i = i + 2) {
             var link = parts[i].split('"')[0];
@@ -223,7 +223,7 @@
         return m;
     };
 
-    var decodeEntities = function (s) {
+     function decodeEntities(s) {
         var str, temp = document.createElement('p');
         temp.innerHTML = s;
         str = temp.textContent || temp.innerText;
@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.8.11",
+        version: "2.8.14",
         status: false,
         name: "basicBot",
         loggedInID: null,
@@ -315,6 +315,7 @@
         },
         room: {
             name: null,
+            chatMessages: [],
             users: [],
             afkList: [],
             mutedUsers: [],
@@ -833,6 +834,9 @@
             chat.message = linkFixer(chat.message);
             chat.message = decodeEntities(chat.message);
             chat.message = chat.message.trim();
+            
+            basicBot.room.chatMessages.push([chat.cid, chat.message, chat.sub, chat.timestamp, chat.type, chat.uid, chat.un]);
+            
             for (var i = 0; i < basicBot.room.users.length; i++) {
                 if (basicBot.room.users[i].id === chat.uid) {
                     basicBot.userUtilities.setLastActivity(basicBot.room.users[i]);
@@ -2117,49 +2121,29 @@
                 }
             },
 
-            /*deletechatCommand: {
-                command: 'deletechat',
-                rank: 'mod',
-                type: 'startsWith',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
-                        var name = msg.substring(cmd.length + 2);
-                        var user = basicBot.userUtilities.lookupUserName(name);
-                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
-                        var chats = $('.from');
-                        var message = $('.message');
-                        var emote = $('.emote');
-                        var from = $('.un.clickable');
-                        for (var i = 0; i < chats.length; i++) {
-                            var n = from[i].textContent;
-                            if (name.trim() === n.trim()) {
-
-                                // var messagecid = $(message)[i].getAttribute('data-cid');
-                                // var emotecid = $(emote)[i].getAttribute('data-cid');
-                                // API.moderateDeleteChat(messagecid);
-
-                                // try {
-                                //     API.moderateDeleteChat(messagecid);
-                                // }
-                                // finally {
-                                //     API.moderateDeleteChat(emotecid);
-                                // }
-
-                                if (typeof $(message)[i].getAttribute('data-cid') == "undefined"){
-                                    API.moderateDeleteChat($(emote)[i].getAttribute('data-cid')); // works well with normal messages but not with emotes due to emotes and messages are seperate.
-                                } else {
-                                    API.moderateDeleteChat($(message)[i].getAttribute('data-cid'));
-                                }
-                            }
-                        }
-                        API.sendChat(subChat(basicBot.chat.deletechat, {name: chat.un, username: name}));
-                    }
-                }
-            },*/
+        deletechatCommand: {
++                command: 'deletechat',
++                rank: 'mod',
++                type: 'startsWith',
++                functionality: function (chat, cmd) {
++                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
++                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
++                    else {
++                        var msg = chat.message;
++                        if (msg.length === cmd.length) return API.sendChat(subChat(basicBot.chat.nouserspecified, {name: chat.un}));
++                        var name = msg.substring(cmd.length + 2);
++                        var user = basicBot.userUtilities.lookupUserName(name);
++                        if (typeof user === 'boolean') return API.sendChat(subChat(basicBot.chat.invaliduserspecified, {name: chat.un}));
++                        for (var i = 1; i < basicBot.room.chatMessages.length; i++) {
++                          if (basicBot.room.chatMessages[i].indexOf(user.id) > -1){
++                            API.moderateDeleteChat(basicBot.room.chatMessages[i][0]);
++                            basicBot.room.chatMessages[i].splice(0);
++                          }
++                        }
++                        API.sendChat(subChat(basicBot.chat.deletechat, {name: chat.un, username: name}));
++                    }
++                }
++            },
 
             emojiCommand: {
                 command: 'emoji',
